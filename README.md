@@ -1,4 +1,4 @@
-# ICSQuartz Artifact Evaluation
+# ICSQuartz
 
 This project introduces ICSQuartz, a scan cycle-aware and vendor-agnostic fuzzer for Industrial Control Systems (ICS) [[1]](#cite-us).
 
