@@ -1,0 +1,21 @@
+{
+    "project_name": "oscat_basic_dt_to_strf",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53DDD3E",
+    "variables": [
+        {
+            "var_name": "in_fmt",
+            "var_offset": 26374,
+            "var_type": "CDS_STRING"
+        },
+        {
+            "var_name": "in_lang",
+            "var_offset": 15684,
+            "var_type": "CDS_INT"
+        },
+        {
+            "var_name": "in_ms",
+            "var_offset": 15678,
+            "var_type": "CDS_INT"
+        }
+    ]
+}

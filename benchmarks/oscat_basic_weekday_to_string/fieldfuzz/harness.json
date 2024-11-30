@@ -1,0 +1,21 @@
+{
+    "project_name": "oscat_basic_weekday_to_string",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53DDCC8",
+    "variables": [
+        {
+            "var_name": "in_LANG",
+            "var_offset": 15562,
+            "var_type": "CDS_INT"
+        },
+        {
+            "var_name": "in_LX",
+            "var_offset": 15564,
+            "var_type": "CDS_INT"
+        },
+        {
+            "var_name": "in_WDAY",
+            "var_offset": 15560,
+            "var_type": "CDS_INT"
+        }
+    ]
+}

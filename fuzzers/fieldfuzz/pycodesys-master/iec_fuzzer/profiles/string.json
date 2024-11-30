@@ -1,0 +1,9 @@
+{
+   "project_name":"string",
+   "description":"MemCpy vuln. Area0: 0xF78D9000, var03 var: 0xF78DC64A (+364A)",
+     "variables":[
+      {
+         "var_name":"var03", "var_offset":13898, "var_type" : "CDS_STRING"
+      }
+     ]
+}

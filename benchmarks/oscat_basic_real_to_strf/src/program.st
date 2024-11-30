@@ -1,0 +1,10 @@
+PROGRAM PLC_PRG
+VAR_INPUT
+    in_IN: REAL;
+    in_N: INT;
+    in_D: STRING;
+END_VAR
+
+REAL_TO_STRF(in_IN, in_N, in_D);
+
+END_PROGRAM

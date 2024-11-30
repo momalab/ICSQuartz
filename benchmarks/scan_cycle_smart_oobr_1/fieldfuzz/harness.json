@@ -1,0 +1,11 @@
+{
+    "project_name": "scan_cycle_smart_oobr_1",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53DDD00",
+    "variables": [
+        {
+            "var_name": "In1",
+            "var_offset": 15616,
+            "var_type": "CDS_LREAL_ARRAY_2"
+        }
+    ]
+}

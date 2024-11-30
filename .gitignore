@@ -1,0 +1,11 @@
+**/*.deb
+fuzzbench/
+**/__pycache__/
+.logs/
+.results/
+.cache/
+.config/
+results/
+venv/
+results-old/
+all-results.txt

@@ -1,0 +1,16 @@
+services:
+  codesys:
+    image: codesys
+    ports:
+      - "11740:11740/tcp"
+      - "11741:11741/tcp"
+      - "11742:11742/tcp"
+      - "11743:11743/tcp"
+      - "1740:1740/udp"
+      - "1741:1741/udp"
+      - "1742:1742/udp"
+      - "1743:1743/udp"
+    cap_add:
+      - SYS_NICE
+
+

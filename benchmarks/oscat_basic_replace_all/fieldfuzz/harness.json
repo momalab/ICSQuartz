@@ -1,0 +1,21 @@
+{
+    "project_name": "oscat_basic_replace_all",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53DDCE0",
+    "variables": [
+        {
+            "var_name": "in_REP",
+            "var_offset": 25545,
+            "var_type": "CDS_STRING"
+        },
+        {
+            "var_name": "in_SRC",
+            "var_offset": 25464,
+            "var_type": "CDS_STRING"
+        },
+        {
+            "var_name": "in_STR",
+            "var_offset": 15584,
+            "var_type": "CDS_STRING"
+        }
+    ]
+}

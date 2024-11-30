@@ -1,0 +1,11 @@
+{
+    "project_name": "scan_cycle_chemical_oobr_1",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53DDD08",
+    "variables": [
+        {
+            "var_name": "Setpoint",
+            "var_offset": 15624,
+            "var_type": "CDS_LREAL_ARRAY_4"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+TYPE INADDR : STRUCT
+    S_addr : DWORD;
+END_STRUCT
+END_TYPE
+
+TYPE SOCKADDRESS : STRUCT
+    sin_family : INT;
+    sin_port : UINT;
+    sin_addr : UDINT;
+    sin_zero : ARRAY [0..7] OF SINT;
+END_STRUCT
+END_TYPE
+
+TYPE SOCKET_FD_SET : STRUCT
+    fd_count : UDINT;
+    fd_array : ARRAY [0..MAX_SOCKET_FD_SETSIZE] OF DINT;
+END_STRUCT
+END_TYPE
+
+TYPE SOCKET_LINGER : STRUCT
+    l_onoff : WORD;
+    l_linger : WORD;
+END_STRUCT
+END_TYPE
+
+TYPE SOCKET_TIMEVAL : STRUCT
+    tv_sec : DINT;
+    tv_usec : DINT;
+END_STRUCT
+END_TYPE

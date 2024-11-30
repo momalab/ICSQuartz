@@ -1,0 +1,6 @@
+pwntools
+pymodbus
+opcua
+ipdb
+pyradamsa
+cmd2

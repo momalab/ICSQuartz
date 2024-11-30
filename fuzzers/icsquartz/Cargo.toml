@@ -1,0 +1,41 @@
+[package]
+name = "ICSQuartz"
+version = "0.1.0"
+authors = []
+edition = "2021"
+
+[features]
+default = ["std", "exec_time"]
+#default = ["std", "scan_cycle", "scan_cycle_mutations", "exec_time"]
+std = []
+scan_cycle = []
+scan_cycle_mutations = []
+exec_time = []
+asan_crash_feedback = []
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3
+debug = true
+
+[build-dependencies]
+cc = { version = "1.0", features = ["parallel"] }
+which = "4.4"
+
+[dependencies]
+libafl = { path = "../LibAFL/libafl/", features = ["std", "derive", "rand_trait", "fork", "prelude", "gzip", "regex", "introspection"] }
+#libafl = { path = "../LibAFL/libafl/", features = ["std", "derive", "rand_trait", "fork", "prelude", "gzip", "regex"] }
+libafl_bolts = { path = "../LibAFL/libafl_bolts/", features = ["errors_backtrace"] }
+libafl_targets = { path = "../LibAFL/libafl_targets/", features = ["sancov_pcguard_hitcounts", "libfuzzer"] }
+# TODO Include it only when building cc
+libafl_cc = { path = "../LibAFL/libafl_cc/" }
+clap = { version = "4.0", features = ["derive"] }
+mimalloc = { version = "*", default-features = false }
+env_logger = "0.10"
+libc = "0.2.155"
+serde = "1.0.203"
+
+[lib]
+name = "libfuzzer_icsquartz"
+crate-type = ["staticlib"]

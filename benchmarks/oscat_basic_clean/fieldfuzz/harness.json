@@ -1,0 +1,16 @@
+{
+    "project_name": "oscat_basic_clean",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53E0858",
+    "variables": [
+        {
+            "var_name": "in_in",
+            "var_offset": 26712,
+            "var_type": "CDS_STRING"
+        },
+        {
+            "var_name": "in_cx",
+            "var_offset": 26793,
+            "var_type": "CDS_STRING"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+   "project_name":"prahshant3",
+   "description":"MemCpy vuln. Area0: 0xF78D9000, Input var: 0xF78DA002",
+     "variables":[
+      {
+         "var_name":"input", "var_offset":4098, "var_type" : "CDS_WORD"
+      }
+     ]
+}

@@ -1,0 +1,11 @@
+{
+    "project_name": "oscat_basic_charname",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53DD007",
+    "variables": [
+        {
+            "var_name": "in_c",
+            "var_offset": 12295,
+            "var_type": "CDS_BYTE"
+        }
+    ]
+}

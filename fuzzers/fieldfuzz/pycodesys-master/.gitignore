@@ -1,0 +1,6 @@
+.idea
+_
+__pycache__
+*.pyc
+*.pyo
+/iec_fuzzer/results/

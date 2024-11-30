@@ -1,0 +1,21 @@
+{
+    "project_name": "oscat_basic_findp",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53E07A0",
+    "variables": [
+        {
+            "var_name": "in_pos",
+            "var_offset": 15734,
+            "var_type": "CDS_INT"
+        },
+        {
+            "var_name": "in_src",
+            "var_offset": 15592,
+            "var_type": "CDS_STRING"
+        },
+        {
+            "var_name": "in_str",
+            "var_offset": 26528,
+            "var_type": "CDS_STRING"
+        }
+    ]
+}

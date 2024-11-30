@@ -1,0 +1,8 @@
+PROGRAM PLC_PRG
+VAR_INPUT
+    in_str: STRING;
+END_VAR
+
+FINDB_NUM(in_str);
+
+END_PROGRAM

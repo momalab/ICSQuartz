@@ -1,0 +1,21 @@
+{
+    "project_name": "oscat_basic_real_to_strf",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53DDCC4",
+    "variables": [
+        {
+            "var_name": "in_D",
+            "var_offset": 25344,
+            "var_type": "CDS_STRING"
+        },
+        {
+            "var_name": "in_IN",
+            "var_offset": 15552,
+            "var_type": "CDS_REAL"
+        },
+        {
+            "var_name": "in_N",
+            "var_offset": 15556,
+            "var_type": "CDS_INT"
+        }
+    ]
+}

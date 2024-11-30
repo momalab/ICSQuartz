@@ -1,0 +1,11 @@
+{
+    "project_name": "oscat_basic_fstring_to_dword",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53E0300",
+    "variables": [
+        {
+            "var_name": "in_in",
+            "var_offset": 25344,
+            "var_type": "CDS_STRING"
+        }
+    ]
+}

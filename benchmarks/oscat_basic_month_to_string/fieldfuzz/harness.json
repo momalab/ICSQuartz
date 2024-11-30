@@ -1,0 +1,21 @@
+{
+    "project_name": "oscat_basic_month_to_string",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53DDD76",
+    "variables": [
+        {
+            "var_name": "in_LANG",
+            "var_offset": 17550,
+            "var_type": "CDS_INT"
+        },
+        {
+            "var_name": "in_LX",
+            "var_offset": 20966,
+            "var_type": "CDS_INT"
+        },
+        {
+            "var_name": "in_MTH",
+            "var_offset": 15734,
+            "var_type": "CDS_INT"
+        }
+    ]
+}

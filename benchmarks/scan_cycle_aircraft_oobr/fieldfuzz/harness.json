@@ -1,0 +1,11 @@
+{
+    "project_name": "scan_cycle_aircraft_oobr",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53E0BA8",
+    "variables": [
+        {
+            "var_name": "In",
+            "var_offset": 27560,
+            "var_type": "CDS_LREAL_ARRAY_8"
+        }
+    ]
+}

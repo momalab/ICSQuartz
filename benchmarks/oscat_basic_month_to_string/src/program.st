@@ -1,0 +1,10 @@
+PROGRAM PLC_PRG
+VAR_INPUT
+    in_MTH: INT;
+    in_LANG: INT;
+    in_LX: INT;
+END_VAR
+
+MONTH_TO_STRING(in_MTH, in_LANG, in_LX);
+
+END_PROGRAM

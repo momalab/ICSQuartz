@@ -1,0 +1,9 @@
+PROGRAM PLC_PRG
+VAR_INPUT
+    in_in: STRING;
+    in_cx: STRING;
+END_VAR
+
+CLEAN(in_in, in_cx);
+
+END_PROGRAM

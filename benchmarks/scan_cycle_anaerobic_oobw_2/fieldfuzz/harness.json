@@ -1,0 +1,11 @@
+{
+    "project_name": "scan_cycle_anaerobic_oobw_2",
+    "description": "Area0: 0x00007FFFF53DA000, Input var: 0x00007FFFF53E07F8",
+    "variables": [
+        {
+            "var_name": "In",
+            "var_offset": 26616,
+            "var_type": "CDS_LREAL_ARRAY_21"
+        }
+    ]
+}
