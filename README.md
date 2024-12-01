@@ -11,7 +11,7 @@ Corban Villa, Constantine Doumanidis, Hithem Lamri, Prashant Hari Narayan Rajput
   author    = {Villa, Corban and Doumanidis, Constantine and Lamri, Hithem and Rajput, Prashant Hari Narayan and Maniatakos, Michail},
   booktitle = {Network and Distributed System Security (NDSS) Symposium},
   title     = {ICSQuartz: Scan Cycle-Aware and Vendor-Agnostic Fuzzing for Industrial Control Systems},
-  year={2025}
+  year      = {2025}
 }
 ```
 
